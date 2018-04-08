@@ -1,0 +1,1 @@
+This source code is used in blog post [How to bind data to inputs?](http://javaman.com.ua/bind-values-to-inputs/)
