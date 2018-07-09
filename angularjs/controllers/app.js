@@ -5,8 +5,8 @@ angular
         $scope.firstName = "John";
         $scope.secondName = "Doe";
     })
-    .controller("OrdersController", function () {
+    .controller("OrdersController", [function () {
         // [5] with "controller as syntax" it is no need to inject $scope to controller, you can refer to variables
         // using `this`.
         this.order = "First order";
-    });
+    }]);
