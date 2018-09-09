@@ -17,6 +17,11 @@ This repository contains code examples for various technologies: Java, AngularJS
 ### Jekyll
 - [ ] Create blog with Jekyll
 
+### NodeJS
+- [ ] Install NodeJS
+- [ ] Install packages
+- [ ] Serve package
+
 ### Spring Boot
 - [ ] Install Spring Boot CLI
 - [ ] Simple Spring Boot application
