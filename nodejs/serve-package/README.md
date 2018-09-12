@@ -5,3 +5,9 @@ Serve package is a Node JS package to serve static html pages.
 ```
 ./install.sh
 ```
+
+Run to directory with files to serve.
+
+```
+serve
+```
