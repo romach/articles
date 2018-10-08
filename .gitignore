@@ -1,25 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @romach
-Sign out
-2,635
-70,943 32,796 github/gitignore
- Code  Pull requests 162  Projects 0  Insights
-gitignore/Global/JetBrains.gitignore
-bb1c447  on Jul 2
-@bamapookie bamapookie Separate module directory from project iml exclude
-  @bamapookie @thunsaker @samskiter @LazarusX @arcresu @akelsch @victorhaggqvist @DKroot @shiftkey @twhitbeck @tsteinholz @ssinss @rocketraman @RobertoNovelo @Cantido @petermorlion @Omarasifshaikh @nfcopier @meyerlasse @koppor @KenjiOhtsuka @jturmel @Nihlus @yatskevich @ikemo3 @GingerGeek
-
-61 lines (47 sloc)  1.27 KB
-# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
-# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
-
 # User-specific stuff
 .idea/**/workspace.xml
 .idea/**/tasks.xml
@@ -76,3 +54,6 @@ crashlytics-build.properties
 fabric.properties
 
 .idea
+
+# Node modules
+node_modules/
