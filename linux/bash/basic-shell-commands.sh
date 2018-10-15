@@ -68,3 +68,14 @@ tail -f /var/log/syslog
 # b - page backward
 # / - search: n - next search result, N - previous search result
 less /var/log/syslog
+
+## Find text
+
+# finds word 'text' in file 'file.txt'
+grep text file.txt
+
+# finds word 'text' in file 'file.txt', also displays one line before and one line after found word
+grep -C text file.txt
+
+# finds word 'text' in current directory recursively, also displays line number where word was found
+grep -Rn text .
