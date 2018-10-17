@@ -79,3 +79,52 @@ grep -C text file.txt
 
 # finds word 'text' in current directory recursively, also displays line number where word was found
 grep -Rn text .
+
+## Redirect input/output
+# redirect output to file (with rewrite)
+ls -la > output
+
+# redirect output to file (with append)
+ls -la >> output
+
+# redirect content of input.txt to command input
+wc -l < input.txt
+
+# redirect input and output
+wc -l < input.txt > output.txt
+
+# redirect errors to file
+ls -la 2&> output.txt
+
+## Pipelines
+# find lines with words 'alias' and 'color' in .bashrc
+cat .bashrc | grep alias | grep color
+
+## Environment variables
+# list environment variables
+env
+
+# output environment variable
+echo $HOME
+
+# change environment variable 'HOME' for command 'cd'
+HOME=/some-dir cd
+
+# change environment variable 'HOME' for current session
+export HOME=/tmp
+
+## Commands history
+# list commands history with command 'history'
+history
+
+# list commands history from file. History saves to file after exit from terminal
+cat ~/.bash_history
+
+# prints commands size of history
+echo $HISTFILESIZE
+
+# execute last command
+!!
+
+# search in commands history
+# ctrl + r
