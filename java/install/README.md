@@ -17,5 +17,5 @@ sudo ./install.sh
 
 Download script and run it:
 ```bash
-wget -O - https://raw.githubusercontent.com/romach/examples/master/java/install/install.sh | sudo bash
+sudo sh -c 'wget -O - https://raw.githubusercontent.com/romach/examples/master/java/install/install.sh | sudo bash'
 ```
