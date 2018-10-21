@@ -27,4 +27,4 @@ apt-get install -y oracle-java8-installer
 java -version
 
 # show Java compiler version
-javaс -version
+javac -version
