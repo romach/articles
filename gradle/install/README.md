@@ -1,4 +1,4 @@
-Java installation script on Ubuntu.
+Gradle installation script on Ubuntu.
 
 ## How to use:
 
