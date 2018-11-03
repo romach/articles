@@ -1,12 +1,16 @@
 #!/usr/bin/env bash
+# run this file with sudo ./install.sh
+
+# output executing commands
+set -x
 
 # install curl
-sudo apt-get update
-sudo apt-get install curl
+apt-get update
+apt-get install -y curl
 
 # install nodejs
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-sudo apt-get install -y nodejs
+apt-get install -y nodejs
 
 # For global packages
 mkdir ~/.npm-global
