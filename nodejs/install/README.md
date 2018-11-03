@@ -20,7 +20,7 @@ Download script and run it:
 sudo sh -c 'wget -O - https://raw.githubusercontent.com/romach/examples/master/nodejs/install/install.sh | sudo bash'
 ```
 
-## For global packages
+## Global packages
 
 **Global packages** - packages that you cna run as command-line programs.
 
