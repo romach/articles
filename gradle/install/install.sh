@@ -17,9 +17,3 @@ rm ~/gradle-4.2.1-bin.zip
 
 # add Gradle to `PATH` environment variable:
 echo "export PATH=\$PATH:/opt/gradle/gradle-4.2.1/bin" >> ~/.bashrc
-
-# execute `~/.bashrc` file:
-source ~/.bashrc
-
-#check Gradle version:
-gradle -v
