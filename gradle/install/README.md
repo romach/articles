@@ -17,5 +17,5 @@ sudo ./install.sh
 
 Download script and run it:
 ```bash
-
+sudo sh -c 'wget -O - https://raw.githubusercontent.com/romach/examples/master/gradle/install/install.sh | sudo bash'
 ```
