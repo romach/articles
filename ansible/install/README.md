@@ -1,4 +1,4 @@
-# Install Ansible.
+# Install Ansible
 
 - install on control host (host, from Ansible is executed):
 
