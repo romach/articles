@@ -42,7 +42,30 @@
 </nav>
 <!--End of Navigation-->
 <div class="container mt-3">
+    <!--Filter-->
     <div class="row">
+        <div class="col">
+            <div class="font-weight-bold">Roles:</div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    All
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item active" href="#">All</a>
+                    <a class="dropdown-item" href="#">Admin</a>
+                    <a class="dropdown-item" href="#">User</a>
+                    <a class="dropdown-item" href="#">Moderator</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of Filter-->
+    <div class="row mt-3">
         <div class="col">
             <!--Start of table-->
             <table class="table table-bordered table-hover table-sm">
