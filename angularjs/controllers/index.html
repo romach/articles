@@ -1,26 +1,54 @@
 <!DOCTYPE html>
-<!--See before: simple-angular-js-application-->
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Controllers in AngularJS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple angularJS project</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+    <!-- [Hint] add sources of AngularJS to script section-->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <!-- [1] add sources of our application to script section-->
+    <!-- [Hint] add sources of our application to script section-->
     <script src="app.js"></script>
 </head>
-<body ng-app="app">
-<!-- [2] ng-controller to process html tag -->
-<div ng-controller="UsersController">
-    <form>
-        <input type="text" id="firstName" ng-model="firstName" placeholder="First name">
-        <input type="text" id="secondName" ng-model="secondName" placeholder="Second name">
-    </form>
-    <div>{{firstName}} {{secondName}}</div>
-</div>
-<hr>
-<!--[3] it is recommended to use "controller as syntax"-->
-<div ng-controller="OrdersController as orders">
-    {{orders.order}}
+<body ng-app="app" ng-cloak>
+<!-- [Hint] ng-controller to process html tag -->
+<div class="container">
+    <div ng-controller="UsersController">
+        <div>Type first name and last name into inputs. They will be printed below inputs.</div>
+        <form>
+            <div class="row">
+                <div class="col"><input class="form-control" type="text" id="firstName" ng-model="firstName"
+                                        placeholder="First name">
+                </div>
+                <div class="col"><input class="form-control" type="text" id="secondName" ng-model="secondName"
+                                        placeholder="Second name">
+                </div>
+            </div>
+        </form>
+        <div>{{firstName}} {{secondName}}</div>
+    </div>
+    <hr>
+    <div>This is value of <code>order</code> value inside <code>OrdersController</code>.</div>
+    <!--[Hint] it is recommended to use "controller as syntax"-->
+    <div class="alert alert-warning" ng-controller="OrdersController as orders">
+        {{orders.order}}
+    </div>
 </div>
 </body>
 </html>
