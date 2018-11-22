@@ -7,7 +7,7 @@ This repository contains code examples for various technologies: Java, AngularJS
 ## Examples:
 
 ### AngularJS
-- [x] [Simple angularJS application](angularjs/simple-angular-js-application)
+- [x] [Simple angularJS application](angularjs/simple-angular-js-application) - [Source code](https://github.com/romach/examples/tree/master/angularjs/simple-angular-js-application)
 - [x] [Controllers in AngularJS](angularjs/controllers)
 - [x] [How to bind data to inputs? (AngularJS)](angularjs/bind-data-to-inputs)
 
