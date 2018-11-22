@@ -1,0 +1,61 @@
+-- USERS (USERS_ID, GROUP_ID, LOGIN)
+CREATE TABLE IF NOT EXISTS USERS (
+ USER_ID SERIAL PRIMARY KEY,
+ GROUP_ID INT,
+ LOGIN VARCHAR(100) NOT NULL
+);
+
+-- GROUPS (GROUP_ID, NAME)
+CREATE TABLE IF NOT EXISTS GROUPS (
+ GROUP_ID SERIAL PRIMARY KEY,
+ NAME VARCHAR(100) NOT NULL
+);
+
+-- GOODS (GOOD_ID, NAME, DESCRIPTION)
+CREATE TABLE IF NOT EXISTS GOODS (
+ GOOD_ID SERIAL PRIMARY KEY,
+ NAME VARCHAR(100) NOT NULL,
+ DESCRIPTION TEXT
+);
+
+-- SQL query should find if any of the groups has less than 10 users.
+INSERT INTO GROUPS (NAME)
+VALUES
+ ('Group-1'),
+ ('Group-2');
+
+INSERT INTO USERS (GROUP_ID, LOGIN)
+VALUES
+ (1, 'User-1'),
+ (1, 'User-2'),
+ (1, 'User-3'),
+ (1, 'User-4'),
+ (1, 'User-5'),
+ (2, 'User-6'),
+ (2, 'User-7'),
+ (2, 'User-8'),
+ (2, 'User-9');
+
+INSERT INTO GOODS (NAME, DESCRIPTION)
+VALUES
+ ('computer', 'computer description'),
+ ('car', 'car description');
+
+-- Create relation MANY-TO-MANY between tables USERS and GOODS.
+CREATE TABLE IF NOT EXISTS USERS_TO_GOODS (
+  USERS_TO_GOODS_ID SERIAL PRIMARY KEY,
+  USER_ID           INT NOT NULL REFERENCES USERS (USER_ID),
+  GOOD_ID           INT NOT NULL REFERENCES GOODS (GOOD_ID)
+);
+
+INSERT INTO USERS_TO_GOODS (USER_ID, GOOD_ID)
+VALUES
+ (1, 1),
+ (1, 2),
+ (2, 1),
+ (3, 1),
+ (4, 1),
+ (5, 1),
+ (6, 1),
+ (7, 1),
+ (8, 1);
