@@ -12,7 +12,7 @@ This repository contains code examples for various technologies: Java, AngularJS
 - [x] [How to bind data to inputs? (AngularJS)](angularjs/bind-data-to-inputs) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/bind-data-to-inputs)]
 
 ### Ansible
-- [x] [Install Ansible]((https://github.com/romach/examples/tree/master/ansible/install))
+- [x] [Install Ansible](https://github.com/romach/examples/tree/master/ansible/install)
 
 ### Docker
 - [ ] Install Docker
