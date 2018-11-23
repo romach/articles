@@ -1,1 +1,3 @@
-This source code is used in blog post [How to bind data to inputs?](http://javaman.com.ua/bind-values-to-inputs/)
+This example describe, how to bind data to inputs in AngularJS application.
+
+[**Demo**](https://romach.github.io/examples/angularjs/bind-data-to-inputs/)
