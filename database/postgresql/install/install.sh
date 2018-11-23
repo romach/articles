@@ -19,5 +19,7 @@ apt-get install -y postgresql-10 pgadmin3
 # check directory with postgres files: ls /var/lib/postgresql/10/
 # run pgAdmin 3: pgadmin3
 
+# if you hav error 'connect: FATAL:  Peer authentication failed for user', see https://stackoverflow.com/questions/18664074/getting-error-peer-authentication-failed-for-user-postgres-when-trying-to-ge
+
 # Links:
 # https://www.postgresql.org/download/linux/ubuntu/
