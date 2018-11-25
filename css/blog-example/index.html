@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Example bootstrap page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Blog example</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navContent"
+                    aria-controls="navContent" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Posts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-item">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="mt-5 pt-5">
+    <div class="container">
+        <section class="shadow card"
+                 style="background-image: url(https://images.pexels.com/photos/6992/forest-trees-northwestisbest-exploress.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)">
+            <div class="card-body text-white text-center py-5 px-5 my-5">
+                <h1 class="mb-4"><strong>Blog example</strong></h1>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, repellat?</p>
+
+                <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda atque
+                    consequuntur, deleniti doloremque, explicabo facere fuga in laborum libero natus nulla tenetur ullam
+                    veniam!</p>
+
+                <a class="btn btn-outline-light btn-lg" href="#">Read <i class="fa fa-graduation-cap ml-2"></i></a>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <section>
+            <h2 class="h1 text-center my-5 font-weight-bold">Blog example</h2>
+            <div class="row text-left">
+                <div class="col-lg-6 col-md-12">
+                    <div class="mb-3">
+                        <img class="shadow img-fluid rounded"
+                             src="https://images.pexels.com/photos/1608382/pexels-photo-1608382.jpeg?cs=srgb&dl=bird-s-eye-view-blue-boat-1608382.jpg&fm=jpg"
+                             alt="">
+                    </div>
+
+                    <div class="news-data">
+                        <a href="#" class="light-blue-text">
+                            <h6><i class="fa fa-plane pr-1"></i><strong>Java</strong></h6>
+                        </a>
+
+                        <p><strong><i class="fa fa-clock-o pr-1"></i>2018-11-27</strong></p>
+                    </div>
+
+                    <h3><a href="#"><strong>Title of blog post</strong></a></h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur in saepe, sed tempore
+                        temporibus vero.</p>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                            <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                                <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                                <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="mb-3">
+                        <img class="shadow img-fluid rounded"
+                             src="https://images.pexels.com/photos/1608382/pexels-photo-1608382.jpeg?cs=srgb&dl=bird-s-eye-view-blue-boat-1608382.jpg&fm=jpg"
+                             alt="">
+                    </div>
+
+                    <div class="news-data">
+                        <a href="#" class="light-blue-text">
+                            <h6><i class="fa fa-plane pr-1"></i><strong>Java</strong></h6>
+                        </a>
+
+                        <p><strong><i class="fa fa-clock-o pr-1"></i>2018-11-27</strong></p>
+                    </div>
+
+                    <h3><a href="#"><strong>Title of blog post</strong></a></h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur in saepe, sed tempore
+                        temporibus vero.</p>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                                <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                                <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-3"><img
+                                src="https://images.pexels.com/photos/805295/pexels-photo-805295.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                                class="rounded img-fluid"/></div>
+                        <div class="col-md-9">
+                            <p class="dark-grey-text"><strong>2018-11-27</strong></p>
+                            <a>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis.
+                                <i class="fa fa-angle-right float-right"></i></a>
+                        </div>
+
+                    </div>
+
+                    <hr>
+                </div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="text-center font-small mе-4 bg-dark">
+    <div class="pt-4">
+        <a class="btn btn-outline-light" href="#">Read <i class="fa fa-graduation-cap ml-2"></i></a>
+        <a class="btn btn-outline-light" href="#">Read <i class="fa fa-graduation-cap ml-2"></i></a>
+
+    </div>
+
+    <hr class="my-4">
+
+    <div class="pb-4">
+        <a href="#" class="text-light"><i class="mr-4 fa fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="mr-4 fa fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="mr-4 fa fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="mr-4 fa fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="mr-4 fa fa-facebook"></i></a>
+        <a href="#" class="text-light"><i class="fa fa-facebook"></i></a>
+    </div>
+</footer>
+
+</body>
+</html>
