@@ -17,6 +17,7 @@ This repository contains code examples for various technologies: Java, AngularJS
 ### CSS
 - [x] [Twitter Bootstrap template example](https://romach.github.io/examples/css/bootstrap/example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/example)]
 - [x] [Example of home blog page Bootstrap](https://romach.github.io/examples/css/bootstrap/blog-example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/blog-example)]
+- [x] [Flexbox example](https://romach.github.io/examples/css/flexbox/example) - [[Source code](https://github.com/romach/examples/tree/master/css/flexbox/example)]
 
 ### Docker
 - [ ] Install Docker
