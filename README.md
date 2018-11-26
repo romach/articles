@@ -15,8 +15,8 @@ This repository contains code examples for various technologies: Java, AngularJS
 - [x] [Install Ansible](https://github.com/romach/examples/tree/master/ansible/install)
 
 ### CSS
-- [x] [Twitter Bootstrap template example](https://romach.github.io/examples/https://romach.github.io/examples/css/bootstrap/example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/example)]
-- [x] [Example of home blog page Bootstrap](https://romach.github.io/examples/https://romach.github.io/examples/css/bootstrap/blog-example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/blog-example)]
+- [x] [Twitter Bootstrap template example](https://romach.github.io/examples/css/bootstrap/example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/example)]
+- [x] [Example of home blog page Bootstrap](https://romach.github.io/examples/css/bootstrap/blog-example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/blog-example)]
 
 ### Docker
 - [ ] Install Docker
