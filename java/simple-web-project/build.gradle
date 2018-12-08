@@ -1,0 +1,12 @@
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    version = '1.0.0'
+    manifest {
+        attributes 'Main-Class': 'ua.com.javaman.gradle_project_template.Main'
+    }
+}
