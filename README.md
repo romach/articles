@@ -42,3 +42,6 @@ This repository contains code examples for various technologies: Java, AngularJS
 ### Spring Boot
 - [ ] Install Spring Boot CLI
 - [ ] Simple Spring Boot application
+
+### Tomcat
+- [x] [Install](https://github.com/romach/examples/tree/master/tomcat/install)
