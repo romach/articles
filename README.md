@@ -30,6 +30,7 @@ This repository contains code examples for various technologies: Java, AngularJS
 
 ### Java
 - [x] [Install](https://github.com/romach/examples/tree/master/java/install)
+- [x] [Simple web-project](https://github.com/romach/examples/tree/master/java/simple-web-project)
 
 ### Jekyll
 - [ ] Create blog with Jekyll
