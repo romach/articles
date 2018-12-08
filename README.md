@@ -24,6 +24,10 @@ This repository contains code examples for various technologies: Java, AngularJS
 - [ ] Install Docker
 - [ ] Run Docker container with Ubuntu
 
+### Gradle
+- [x] [Install Gradle](https://github.com/romach/examples/blob/master/gradle/install/README.md)
+- [x] [Java project template](https://github.com/romach/Gradle-project-template)
+
 ### Jekyll
 - [ ] Create blog with Jekyll
 
