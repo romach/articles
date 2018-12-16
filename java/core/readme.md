@@ -6,6 +6,12 @@
 
 - ROM - string constants and literals;
 
+## Primitive types
+
+### Casting
+
+![primitive-types-casting](primitive-types-casting.png)
+
 ## Variables
 
 - not initialized by default;
@@ -36,3 +42,13 @@
 - if objects are not equal they may have same hash codes;
 
 ![equals-hascode-contract](equals-hascode-contract.png)
+
+## Wrappers
+
+### Integer
+
+Convert integer to binary form
+
+```
+Integer.toBinaryString(10)
+```
