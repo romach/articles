@@ -8,6 +8,14 @@
 
 ## Primitive types
 
+### Overflow
+
+`overflow` will be `-2147483645`.
+
+```
+int overflow = Integer.MAX_VALUE + 1;
+```
+
 ### Casting
 
 ![primitive-types-casting](primitive-types-casting.png)
