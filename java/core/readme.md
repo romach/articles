@@ -52,7 +52,7 @@ c += 3.14; => c = (char)(c + 3.14);
 
 ## Arrays
 
-- when array of objects is creates links are initialized by `null` values;
+- when array of objects is created links are initialized by `null` values;
 
 - when array of primitives is created values are initialized by zeroes;
 
@@ -82,3 +82,17 @@ Convert integer to binary form
 ```
 Integer.toBinaryString(10)
 ```
+
+## Garbage collector
+
+- stop-and-copy
+    - get variables from stack and find all used objects (including nested)
+    - compact copy all live object to another heap
+    - delete objects in old heap
+- mark-and-copy
+    - mark all live objects
+    - delete not marked objects
+    
+## JIT compiler
+
+- compiles frequent running code "on the fly"
