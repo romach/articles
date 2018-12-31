@@ -62,6 +62,16 @@ c += 3.14; => c = (char)(c + 3.14);
 
 - default initialization: `0`, `false`, `null`;
 
+- a blank final instance variable must be definitely assigned at the end of every constructor of the class in which it
+is declared; otherwise a compile-time error occurs.
+
+**Initialization order**
+
+- fields are initialized according declaration order;
+
+- static fields are initialized according declaration order while first object creation or before first static method
+invoking;
+
 ## Objects
 
 ### Equals - hashcode contract
