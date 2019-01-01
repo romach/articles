@@ -4,9 +4,8 @@
  * 1. static fields and class initializers in order of declaration.
  * Object initialization:
  * 1. parent constructor execution
- * 2. instance initializer
- * 3. object fields and instance initializers in order of declaration
- * 4. rest of constructor
+ * 2. object fields and instance initializers in order of declaration
+ * 3. rest of constructor
  */
 public class ClassAndObjectInitialization {
     public static void main(String[] args) {
