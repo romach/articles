@@ -152,3 +152,78 @@ const {age, ...other} = person;
 // will output: 10 {firstName: 'John', lastName: 'Doe'}
 console.log(age, other);
 ```
+
+## Array destructuring
+
+```javascript
+const fibonacciNumbers = [1, 1, 2, 3, 5, 8, 13];
+
+const [, b,, d] = fibonacciNumbers;
+// will output: 1 3
+console.log(b, d);
+```
+
+```javascript
+const line = [[1, 2], [3, 4]];
+
+const [[a, b], [c, d]] = line;
+// will output: 1 2 3 4
+console.log(a, b, c, d);
+```
+
+```javascript
+const people = ['John', 'Bob'];
+
+const [a, b, c = 'Alice'] = people;
+// will output: John Bob Alice
+console.log(a, b, c);
+```
+
+```javascript
+const people = ['John', 'Bob', 'Alice'];
+
+const [a, ...other] = people;
+// will output: ['Bob', 'Alice']
+console.log(other);
+```
+
+```javascript
+const animalsDictionary = {
+    duck: 'quack',
+    dog: 'wuff',
+    mouse: 'squeak',
+    hamster: 'squeak'
+};
+// filter animals who say 'squeak'
+const animalsEntries = Object.entries(animalsDictionary);
+const squeakAnimals = animalsEntries
+    .filter(([, value]) => value === 'squeak')
+    .map(([value]) => value);
+// will output: ['mouse', 'hamster']
+console.log(squeakAnimals);
+```
+
+```javascript
+const shape = {
+    type: 'segment',
+    coordinates: {
+        start: [1, 2],
+        end: [3, 4]
+    }
+};
+const {coordinates: {start: [a, b], end: [c, d]}} = shape;
+// will output: [1 2 3 4]
+console.log(a, b, c, d);
+```
+
+## Classes
+
+```javascript
+const a = 1;
+const b = 2;
+
+const point = {a, b};
+
+// will output: {a: 1, b: 2}
+console.log(point);
+```
