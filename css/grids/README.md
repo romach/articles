@@ -1,6 +1,6 @@
 # Grid layout with 3 equal columns
 
-[**Demo**](https://romach.github.io/examples/css/grids/demo.html) | [**Source code**](https://github.com/romach/examples/tree/master/css)
+[**Demo**](https://romach.github.io/examples/css/grids/demo.html) | [**Source code**](https://github.com/romach/examples/tree/master/css/grids)
 
 - add parent container with properties:
   - `display: grid` - container is a CSS Grid

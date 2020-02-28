@@ -8,6 +8,7 @@
 - [x] [How to bind data to inputs? (AngularJS)](https://romach.github.io/examples/angularjs/bind-data-to-inputs) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/bind-data-to-inputs)]
 
 ### CSS
+- [x] [Grid layout with 3 equal columns](https://romach.github.io/examples/css/grids)
 - [x] [Twitter Bootstrap template example](https://romach.github.io/examples/css/bootstrap/example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/example)]
 - [x] [Example of home blog page Bootstrap](https://romach.github.io/examples/css/bootstrap/blog-example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/blog-example)]
 - [x] [Flexbox example](https://romach.github.io/examples/css/flexbox/example) - [[Source code](https://github.com/romach/examples/tree/master/css/flexbox/example)]
