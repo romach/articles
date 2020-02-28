@@ -1,18 +1,11 @@
-- **[Link to GitHub repository](https://github.com/romach/examples)**
+## Front-End
 
-- **[Link to live examples](https://romach.github.io/examples/)**
+### JavaScript
 
-This repository contains code examples for various technologies: Java, AngularJS, Docker.
-
-## Examples:
-
-### AngularJS
+#### AngularJS
 - [x] [Simple angularJS application](https://romach.github.io/examples/angularjs/simple-angular-js-application) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/simple-angular-js-application)]
 - [x] [Controllers in AngularJS](https://romach.github.io/examples/angularjs/controllers) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/controllers)]
 - [x] [How to bind data to inputs? (AngularJS)](https://romach.github.io/examples/angularjs/bind-data-to-inputs) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/bind-data-to-inputs)]
-
-### Ansible
-- [x] [Install Ansible](https://github.com/romach/examples/tree/master/ansible/install)
 
 ### CSS
 - [x] [Twitter Bootstrap template example](https://romach.github.io/examples/css/bootstrap/example) - [[Source code](https://github.com/romach/examples/tree/master/css/bootstrap/example)]
@@ -20,29 +13,45 @@ This repository contains code examples for various technologies: Java, AngularJS
 - [x] [Flexbox example](https://romach.github.io/examples/css/flexbox/example) - [[Source code](https://github.com/romach/examples/tree/master/css/flexbox/example)]
 - [x] [Flexbox responsive example](https://romach.github.io/examples/css/flexbox/responsive) - [[Source code](https://github.com/romach/examples/tree/master/css/flexbox/responsive)]
 
+## Dev-Ops
+
+### Ansible
+- [x] [Install Ansible](https://github.com/romach/examples/tree/master/ansible/install)
+
 ### Docker
 - [ ] Install Docker
 - [ ] Run Docker container with Ubuntu
 
-### Gradle
-- [x] [Install Gradle](https://github.com/romach/examples/blob/master/gradle/install/README.md)
-- [x] [Java project template](https://github.com/romach/Gradle-project-template)
-
-### Java
-- [x] [Install](https://github.com/romach/examples/tree/master/java/install)
-- [x] [Simple web-project](https://github.com/romach/examples/tree/master/java/simple-web-project)
+## Static-site generators
 
 ### Jekyll
+
 - [ ] Create blog with Jekyll
 
+## Back-End
+
 ### NodeJS
+
 - [ ] Install NodeJS
 - [ ] Install packages
 - [ ] Serve package
 
-### Spring Boot
+### Java
+
+#### Core
+
+- [x] [Install](https://github.com/romach/examples/tree/master/java/install)
+
+#### Gradle
+- [x] [Install Gradle](https://github.com/romach/examples/blob/master/gradle/install/README.md)
+- [x] [Java project template](https://github.com/romach/Gradle-project-template)
+
+#### Web
+
+- [x] [Simple web-project](https://github.com/romach/examples/tree/master/java/simple-web-project)
+- [x] [Install Tomcat](https://github.com/romach/examples/tree/master/tomcat/install)
+
+#### Spring Boot
+
 - [ ] Install Spring Boot CLI
 - [ ] Simple Spring Boot application
-
-### Tomcat
-- [x] [Install](https://github.com/romach/examples/tree/master/tomcat/install)
