@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid layout with 3 equal columns</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .grid {
+        background-color: antiquewhite;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .grid > div {
+        background-color: #eee;
+        padding: 1rem;
+      }
+      .grid > div:nth-child(odd) {
+        background-color: #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+        accusantium a deserunt ducimus, est itaque nesciunt. Impedit dolores
+        corporis at dicta optio perferendis. Dolorem minus magni dolorum
+        consequatur? Reprehenderit ratione culpa sapiente numquam consequatur
+        voluptate voluptatem dolores enim illo quasi.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam sed
+        esse eos sapiente voluptatibus numquam? Ad adipisci alias reiciendis.
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores a
+        cupiditate fugiat ea necessitatibus odit, omnis at maiores? Libero,
+        eveniet magnam. Inventore quasi dolorum ratione odio dolores numquam
+        nulla iure voluptatum commodi aliquid laudantium error, laboriosam in
+        minus vero nemo perferendis reprehenderit. Nulla pariatur corrupti
+        aliquid, similique reiciendis enim quia? Tempora reiciendis quod esse
+        quidem ut ea dicta voluptatum architecto.
+      </div>
+    </div>
+  </body>
+</html>
