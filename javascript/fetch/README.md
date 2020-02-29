@@ -2,7 +2,7 @@
 
 [**Demo**](https://romach.github.io/examples/javascript/fetch/demo.html) | [**Source code**](https://github.com/romach/examples/tree/master/javascript/fetch)
 
-In this example we fetch users from https://jsonplaceholder.typicode.com Rest API and show them on page.
+In this example we fetch users from [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com) Rest API and show them on page.
 
 ## Fetch information from the server
 
