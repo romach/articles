@@ -2,7 +2,12 @@
 
 ### JavaScript
 
+#### Core
+
+- [x] [Using of `fetch()` method](https://romach.github.io/examples/javascript/fetch)
+
 #### AngularJS
+
 - [x] [Simple angularJS application](https://romach.github.io/examples/angularjs/simple-angular-js-application) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/simple-angular-js-application)]
 - [x] [Controllers in AngularJS](https://romach.github.io/examples/angularjs/controllers) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/controllers)]
 - [x] [How to bind data to inputs? (AngularJS)](https://romach.github.io/examples/angularjs/bind-data-to-inputs) - [[Source code](https://github.com/romach/examples/tree/master/angularjs/bind-data-to-inputs)]
