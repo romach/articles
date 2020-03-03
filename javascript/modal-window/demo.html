@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Implement popup</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .modal-shadow {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.3);
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+      .modal-window {
+        background-color: white;
+        max-width: 600px;
+        margin: 200px auto;
+        border: 1px solid gray;
+        border-radius: 0.25rem;
+        box-sizing: border-box;
+      }
+      .modal-header,
+      .modal-content,
+      .modal-footer {
+        padding: 1rem 1rem 1rem;
+      }
+      .modal-header {
+        border-bottom: 1px solid #ddd;
+        font-weight: 700;
+      }
+      .modal-footer {
+        border-top: 1px solid #ddd;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 1rem;
+        justify-content: end;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Header</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
+      molestias fugit facere fuga sequi adipisci sed dolorem dignissimos
+      inventore unde amet tempora eveniet ipsam expedita nesciunt in voluptates
+      illum quasi, nulla nemo earum asperiores magni id rerum. Dolorum, nobis
+      exercitationem.
+    </p>
+  </body>
+  <script>
+    class ModalWindow {
+      static TEMPLATE = `<div class="modal-shadow">
+          <section class="modal-window">
+            <header class="modal-header">
+              Edit user
+            </header>
+            <main class="modal-content">
+              Content
+            </main>
+            <footer class="modal-footer">
+              <button>Save</button><button>Cancel</button>
+            </footer>
+          </section>
+        </div>`;
+
+      constructor() {
+        this.modalNode = document.createElement("div");
+        this.modalNode.classList.add("modal");
+        this.modalNode.insertAdjacentHTML("afterbegin", ModalWindow.TEMPLATE);
+        document.body.appendChild(this.modalNode);
+      }
+      close() {
+        this.modalNode.remove();
+      }
+    }
+    const modal = new ModalWindow();
+    modal.close();
+  </script>
+</html>
