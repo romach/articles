@@ -18,6 +18,7 @@
 - [ ] [Basic React application]
 - [ ] [Create component in React]
 - [ ] [Use state in React components]
+- [ ] [Use styles in React components]
 
 ### CSS
 - [x] [Grid layout with 3 equal columns](https://romach.github.io/examples/css/grids)
