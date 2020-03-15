@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #eeeeee;
+      }
+      .container {
+        position: absolute;
+        height: 100px;
+        width: 200px;
+        margin-left: -100px;
+        margin-top: -50px;
+        top: 50%;
+        left: 50%;
+        border-radius: 8px;
+        box-shadow: 0 1px 8px #00000080;
+      }
+      .corner {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 10%;
+        bottom: 100%;
+        overflow: hidden;
+      }
+      .corner::after {
+        content: "";
+        position: absolute;
+        background-color: #eee;
+        width: 15px;
+        height: 30px;
+        border-radius: 5px 0 0 0;
+        box-shadow: 0 1px 8px #00000080;
+        bottom: 0;
+        left: 5px;
+        transform-origin: bottom left;
+        transform: rotate(66deg) skew(0deg, -15deg);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="corner"></div>
+    </div>
+  </body>
+</html>

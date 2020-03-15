@@ -1,0 +1,16 @@
+@import 'variables';
+body {
+  background-color: $background-color;
+}
+.cat {
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.cat1 {
+  background-image: url('../img/cat-1.png');
+}
+.cat2 {
+  background-image: url('../img/cat-2.jpg');
+}
