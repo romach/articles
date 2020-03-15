@@ -1,0 +1,13 @@
+<div class="card">
+  <h2 class="title">{{ card.title }}</h2>
+  <p>{{ card.text }}</p>
+  <button (click)="changeTitle()">Change title</button>
+  <button (click)="card.title = 'inline'">Inline binding</button>
+  <input
+    [ngStyle]="{
+      color: card.title.length >= 5 ? 'red' : 'black'
+    }"
+    type="text"
+    [(ngModel)]="card.title"
+  />
+</div>
