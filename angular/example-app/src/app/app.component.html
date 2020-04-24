@@ -2,4 +2,9 @@
   <h1>Hello</h1>
   <app-form></app-form>
   <app-card *ngFor="let card of cards" [card]="card"></app-card>
+  <app-user></app-user>
+  <input type="text" [(ngModel)]="twoWayData"/>
+  <div *ngIf="twoWayData !== ''; else noData">{{twoWayData}}</div>
+  <ng-template #noData><div >No data</div></ng-template>
+  <button [disabled]="false">Button</button>
 </div>

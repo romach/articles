@@ -149,7 +149,7 @@ To run Webpack with NPM we can add scripts to `package.json`:
 
 ```javascript
 "scripts": {
-  "dev": "webpack --mode development"",
+  "dev": "webpack --mode development",
   "build": "webpack --mode production"
 }
 ```
@@ -181,7 +181,14 @@ module.exports = {
 npm i sass-loader node-sass css-loader mini-css-extract-plugin
 ```
 
+Import styles in js
+
+```javascript
+import "../sass/styles.scss"
+```
+
 ```diff
++ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 plugins: [
   ...
 + new MiniCssExtractPlugin({
@@ -257,7 +264,7 @@ module.exports = {
 
 ## Add Babel
 
-Install deoendency:
+Install dependency:
 
 ```bash
 npm install --save-dev babel-loader @babel/core
@@ -310,6 +317,7 @@ Add loader
 +  }
 +  return loaders;
 +}
+...
 +{
 +  test: /\.js$/,
 +  exclude: /node_modules/,

@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   messages: string[] = ["first", "Second"];
-  searchQuery: string;
+  searchQuery: string = "";
 }

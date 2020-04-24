@@ -35,15 +35,15 @@ Create `card.component.ts` in `card` directory
 
 Create `CardComponent` class
 
-Import `Component` decorator
+Import `@Component` decorator
 
-Add `Component` decorator to class
+Add `@Component` decorator to class
 
 - selector - `app-card`
 - templateUrl - `./card.component.html`
 - styleUrls - array of css files
 
-Add component to `declarations` of `@NgModule` decorator
+Add component to `declarations` of `@NgModule` decorator of your module 
 
 Use `<app-card/>` tag in template of parent component
 

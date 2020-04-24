@@ -11,7 +11,7 @@ export interface Card {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'example-app';
+  twoWayData = 'two-way data';
   cards: Card[] = [
     {title: "Title", text: "Text"},
     {title: "Title 2", text: "Text 2"}

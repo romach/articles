@@ -1,4 +1,4 @@
 <input [(ngModel)]="searchQuery" type="text" />
 <ul>
-  <li *ngFor="let message of messages">{{ message }}</li>
+  <li *ngFor="let message of (messages|search:searchQuery)">{{ message }}</li>
 </ul>

@@ -20,4 +20,18 @@ If `Search` input is empty we should output all messages.
 ## Create custom pipe
 
 - create `SearchPipe` class in `search.pipe.ts`
-- 
+- implement `transform()` from `PipeTransform` interface
+  - return filtered messages according query string
+- add `Pipe` annotation with name `search`
+- import `Pipe` and `PipeTransform` from `'@angular/core'`
+- import `SearchPipe` to `AppModule`
+
+## Use custom pipe
+
+```
+*ngFor="let message of (messages|search:searchQuery)"
+```
+
+- `messages` - initial messages
+- `search` - pipe
+- `searchQuery` - query from input
