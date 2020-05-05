@@ -9,10 +9,11 @@
   <body class="bg-gray-200">
     <div class="mx-auto" style="width: 600px">
       <div class="flex bg-white rounded-lg p-6 m-6 shadow-md">
-        <img
-          class="h-24 w-24 rounded-full mx-0 mr-6"
-          src="avatar-1.jpeg"
-        />
+        <picture class="h-24 w-24 mx-0 mr-6">
+          <source srcset="./public/avatar-1.jpeg">
+          <source srcset="./avatar-1.jpeg">
+          <img class="rounded-full"/>
+        </picture>
         <div class="text-left">
           <h2 class="text-lg">Scott Reynolds</h2>
           <div class="text-purple-500">Customer Support</div>
