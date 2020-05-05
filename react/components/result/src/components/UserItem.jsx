@@ -2,19 +2,20 @@ import React, { Component } from "react";
 
 export default class UserItem extends Component {
   render() {
+    const { name, position, email, phone, avatar } = this.props.user;
     return (
       <div className="flex bg-white rounded-lg p-6 m-6 shadow-md">
         <div>
           <img
-            className="h-24 w-24 mx-0 mr-6 rounded-full"
-            src="avatar-1.jpeg"
+            className="h-24 w-24 mx-0 mr-6 rounded-full object-cover"
+            src={avatar} alt={name}
           />
         </div>
         <div className="text-left">
-          <h2 className="text-lg">Scott Reynolds</h2>
-          <div className="text-purple-500">Customer Support</div>
-          <div className="text-gray-600">scottreynolds@example.com</div>
-          <div className="text-gray-600">(555) 765-4321</div>
+          <h2 className="text-lg">{name}</h2>
+          <div className="text-purple-500">{position}</div>
+          <div className="text-gray-600">{email}</div>
+          <div className="text-gray-600">{phone}</div>
         </div>
       </div>
     );
