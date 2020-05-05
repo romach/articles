@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Scott Reynolds",
+    "position": "Customer Support",
+    "email": "scottreynolds@example.com",
+    "phone": "(555) 765-4321"
+  },
+  {
+    "name": "Willard Nelson",
+    "position": "Software Engineer",
+    "email": "willardnelson@example.com",
+    "phone": "(376) 964-3456"
+  },
+  {
+    "name": "Lori Hunter",
+    "position": "QA Engineer",
+    "email": "lorihunter@example.com",
+    "phone": "(444) 777-6654"
+  }
+]
