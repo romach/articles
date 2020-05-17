@@ -3,7 +3,6 @@ import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
-import "../node_modules/core-js/proposals/reflect-metadata";
 
 if (environment.production) {
   enableProdMode();
