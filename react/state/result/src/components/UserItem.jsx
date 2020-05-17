@@ -2,7 +2,8 @@ import React, { Component } from "react";
 
 export default class UserItem extends Component {
   render() {
-    const { name, position, email, phone, avatar } = this.props.user;
+    const { id, name, position, email, phone, avatar } = this.props.user;
+    const { onDelete } = this.props;
     return (
       <div className="flex bg-white rounded-lg p-6 m-6 shadow-md">
         <div>
@@ -16,6 +17,7 @@ export default class UserItem extends Component {
           <div className="text-purple-500">{position}</div>
           <div className="text-gray-600">{email}</div>
           <div className="text-gray-600">{phone}</div>
+          <button onClick={() => onDelete(id)}>Delete</button>  
         </div>
       </div>
     );

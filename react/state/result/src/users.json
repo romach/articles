@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "name": "Scott Reynolds",
     "position": "Customer Support",
     "email": "scottreynolds@example.com",
@@ -7,6 +8,7 @@
     "avatar": "avatar-1.jpeg"
   },
   {
+    "id": 2,
     "name": "Willard Nelson",
     "position": "Software Engineer",
     "email": "willardnelson@example.com",
@@ -14,6 +16,7 @@
     "avatar": "avatar-2.jpeg"
   },
   {
+    "id": 3,
     "name": "Lori Hunter",
     "position": "QA Engineer",
     "email": "lorihunter@example.com",
