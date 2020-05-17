@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Scott Reynolds",
+    "position": "Customer Support",
+    "email": "scottreynolds@example.com",
+    "phone": "(555) 765-4321",
+    "avatar": "avatar-1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Willard Nelson",
+    "position": "Software Engineer",
+    "email": "willardnelson@example.com",
+    "phone": "(376) 964-3456",
+    "avatar": "avatar-2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Lori Hunter",
+    "position": "QA Engineer",
+    "email": "lorihunter@example.com",
+    "phone": "(444) 777-6654",
+    "avatar": "avatar-3.jpeg"
+  }
+]
