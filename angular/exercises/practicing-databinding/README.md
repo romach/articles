@@ -46,5 +46,5 @@ onUserNameReset() {
 Bind `click` event to button
 
 ```
-<button [disabled]="userName == ''" (click)="onUserNameReset()">Reset</button>
+<button [disabled]="userName === ''" (click)="onUserNameReset()">Reset</button>
 ```
